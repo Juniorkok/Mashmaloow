@@ -1,0 +1,15 @@
+language: php
+rvm:
+  - '7.0'
+  - hhvm
+  - nightly
+
+sudo: enabled
+
+os: osx
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: "YOUR ENCRYPTED API KEY"
+
